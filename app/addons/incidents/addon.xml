@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<addon scheme="3.0">
+  <id>incidents</id>
+  <version>1.0</version>
+  <default_language>en</default_language>
+  <priority>1</priority>
+  <status>active</status>
+
+
+    <settings>
+        <sections>
+            <section id="general">
+                <name>Activate Incidents</name>
+                <items>
+                    <item id="checkbox">
+                        <name>Incidents</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+<!-- Translations for the non-default languages -->
+   <language_variables>
+    <item lang="en" id="incidents_menu">Incidents</item>
+</language_variables>
+
+</addon>
