@@ -1,1 +1,0 @@
-{style src="addons/bulk_add_to_cart/styles.less"}
